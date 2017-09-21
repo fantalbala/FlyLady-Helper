@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA8BCF091F73E0CD001A8E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BCF081F73E0CD001A8E8A /* AppDelegate.swift */; };
+		AA8BCF0B1F73E0CD001A8E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8BCF0A1F73E0CD001A8E8A /* ViewController.swift */; };
+		AA8BCF0E1F73E0CD001A8E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8BCF0C1F73E0CD001A8E8A /* Main.storyboard */; };
+		AA8BCF111F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA8BCF0F1F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodeld */; };
+		AA8BCF131F73E0CD001A8E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8BCF121F73E0CD001A8E8A /* Assets.xcassets */; };
+		AA8BCF161F73E0CD001A8E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8BCF141F73E0CD001A8E8A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA8BCF051F73E0CD001A8E8A /* FlyLadyHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyLadyHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA8BCF081F73E0CD001A8E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA8BCF0A1F73E0CD001A8E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA8BCF0D1F73E0CD001A8E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA8BCF101F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlyLadyHelper.xcdatamodel; sourceTree = "<group>"; };
+		AA8BCF121F73E0CD001A8E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA8BCF151F73E0CD001A8E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA8BCF171F73E0CD001A8E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA8BCF021F73E0CD001A8E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8BCEFC1F73E0CD001A8E8A = {
+			isa = PBXGroup;
+			children = (
+				AA8BCF071F73E0CD001A8E8A /* FlyLadyHelper */,
+				AA8BCF061F73E0CD001A8E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA8BCF061F73E0CD001A8E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA8BCF051F73E0CD001A8E8A /* FlyLadyHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA8BCF071F73E0CD001A8E8A /* FlyLadyHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AA8BCF081F73E0CD001A8E8A /* AppDelegate.swift */,
+				AA8BCF0A1F73E0CD001A8E8A /* ViewController.swift */,
+				AA8BCF0C1F73E0CD001A8E8A /* Main.storyboard */,
+				AA8BCF121F73E0CD001A8E8A /* Assets.xcassets */,
+				AA8BCF141F73E0CD001A8E8A /* LaunchScreen.storyboard */,
+				AA8BCF171F73E0CD001A8E8A /* Info.plist */,
+				AA8BCF0F1F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodeld */,
+			);
+			path = FlyLadyHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA8BCF041F73E0CD001A8E8A /* FlyLadyHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA8BCF1A1F73E0CD001A8E8A /* Build configuration list for PBXNativeTarget "FlyLadyHelper" */;
+			buildPhases = (
+				AA8BCF011F73E0CD001A8E8A /* Sources */,
+				AA8BCF021F73E0CD001A8E8A /* Frameworks */,
+				AA8BCF031F73E0CD001A8E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyLadyHelper;
+			productName = FlyLadyHelper;
+			productReference = AA8BCF051F73E0CD001A8E8A /* FlyLadyHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA8BCEFD1F73E0CD001A8E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Emilie Chevalot";
+				TargetAttributes = {
+					AA8BCF041F73E0CD001A8E8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9CUD6Q7MNV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA8BCF001F73E0CD001A8E8A /* Build configuration list for PBXProject "FlyLadyHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA8BCEFC1F73E0CD001A8E8A;
+			productRefGroup = AA8BCF061F73E0CD001A8E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA8BCF041F73E0CD001A8E8A /* FlyLadyHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA8BCF031F73E0CD001A8E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8BCF161F73E0CD001A8E8A /* LaunchScreen.storyboard in Resources */,
+				AA8BCF131F73E0CD001A8E8A /* Assets.xcassets in Resources */,
+				AA8BCF0E1F73E0CD001A8E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA8BCF011F73E0CD001A8E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8BCF0B1F73E0CD001A8E8A /* ViewController.swift in Sources */,
+				AA8BCF111F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodeld in Sources */,
+				AA8BCF091F73E0CD001A8E8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA8BCF0C1F73E0CD001A8E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8BCF0D1F73E0CD001A8E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA8BCF141F73E0CD001A8E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA8BCF151F73E0CD001A8E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA8BCF181F73E0CD001A8E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA8BCF191F73E0CD001A8E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA8BCF1B1F73E0CD001A8E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CUD6Q7MNV;
+				INFOPLIST_FILE = FlyLadyHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.fantalbala.FlyLadyHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA8BCF1C1F73E0CD001A8E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CUD6Q7MNV;
+				INFOPLIST_FILE = FlyLadyHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.fantalbala.FlyLadyHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA8BCF001F73E0CD001A8E8A /* Build configuration list for PBXProject "FlyLadyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8BCF181F73E0CD001A8E8A /* Debug */,
+				AA8BCF191F73E0CD001A8E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA8BCF1A1F73E0CD001A8E8A /* Build configuration list for PBXNativeTarget "FlyLadyHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8BCF1B1F73E0CD001A8E8A /* Debug */,
+				AA8BCF1C1F73E0CD001A8E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA8BCF0F1F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA8BCF101F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodel */,
+			);
+			currentVersion = AA8BCF101F73E0CD001A8E8A /* FlyLadyHelper.xcdatamodel */;
+			path = FlyLadyHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA8BCEFD1F73E0CD001A8E8A /* Project object */;
+}
